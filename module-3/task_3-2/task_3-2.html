@@ -10,9 +10,19 @@
       <span id="txtOut" style="white-space: nowrap"></span>
     </div>
     <ol>
-      <li>[Write the question here, and copy this for more questions]</li>
-      <p>[Write your answer here, and copy this for more answers]</p>
+      <li>[In part 1, is it possible to solve the problem using a single "for" loop?]</li>
+      <p>[Yes, it is possible to solve part 1 with one for loop. The same loop can count up and calculate the numbers in reverse order. However, using two loops can make the code easier to understand.]</p>
     </ol>
+    <li>[In part 2, can we create an "infinite" loop within the condition of the "while" loop?]</li>
+      <p>[es, an infinite loop can happen if the condition in the while loop never becomes false. For example, if the guessed number can never become equal to the target number, the loop will continue forever. To avoid this, the condition must be able to become false.]</p>
+    </ol>
+    <li>[Discuss briefly how quickly or slowly a computer might be able to compute this, considering the number of guesses and the time it takes. How does the program behave while it is guessing? Can the program perform other tasks concurrently?]</li>
+      <p>[A computer can make many guesses very quickly, but the time depends on how many guesses are needed. While the while loop is running, the program continues guessing until it finds the correct number. The JavaScript code cannot continue to the next task until the loop is finished.]</p>
+    </ol>
+    <li>[Explain the relationship between rows and columns in nested "for" loops. Can we change the order, considering rows to be innermost or columns to be innermost, or does this not matter?]</li>
+      <p>[In nested for loops, one loop controls the rows and the other controls the columns. We can change the order of the loops, but this changes the order in which the rows and columns are created. For this task, it is easiest to use rows in the outer loop and columns in the inner loop.]</p>
+    </ol>
+      
     <script type="module" src="./task_3-2.mjs" defer></script>
   </body>
 </html>
